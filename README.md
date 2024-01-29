@@ -27,7 +27,7 @@ print(type(var01))
 
 print( 5 + 4 / 2) # 7.0
 print( 5 == 4 )  # False
-```
+   ```
 
 ## 2일차
 - 파이썬 기초
