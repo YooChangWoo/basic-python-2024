@@ -68,5 +68,41 @@ print( 5 == 4 )  # False
         - 상속, 다중상속
         - 추상클래스, 인터페이스....
     
+## 4일차
+- Python 기초
+  - 패키지, 모듈 계속
+    - pip 사용
 
+    ```shell
+    > pip --version #버전확인
+    > pip list #현재 설치된 라이브러리 목록 확인
+    > pip install 패키지명 # 패키지를 내컴퓨터에 설치
+    > pip uninstall 패키지명  #패키지를 삭제
+    ```
+  - 예외처리 : 비정상적인 프로그램 종료 막기
+
+  ```python
+  def divide(x ,y):
+    try:
+        return x / y    #ZeroDivisionError 발생
+    except ZeroDivisionError as e:
+        print('제수는 0 이 될 수 없습니다')
+        return 0
+  
+  ```
+  - 파일 입출력
+
+  ```python
+    f = open('파일명', mode= 'r|w|a',  encoding = 'cp949|utf-8')
+    f.read()
+    f.readline()  #읽기
+    f.write('text') #쓰기 
+    f.close()  # 파일은 반드시 닫는다
+  ```
+ 
+- Python 활용
+  - 주피터 노트북
+     - Ctrl + shift + P(명령 팔레트) 로 시작
+     - 사용방법 (test31_jupyter.ipynb 참조)
+  - folium
     
