@@ -104,5 +104,18 @@ print( 5 == 4 )  # False
   - 주피터 노트북
      - Ctrl + shift + P(명령 팔레트) 로 시작
      - 사용방법 (test31_jupyter.ipynb 참조)
-  - folium
+  - folium 기본사용
+    ![folium사용법](https://raw.githubusercontent.com/YooChangWoo/basic-python-2024/main/images/python_001.png)
+  ## 5일차
+  - 파이썬 응용
+    - 주피터 노트북 활용 - 구글 코랩(Colab)
     
+
+
+
+
+        - 가상환경
+        - 객체지향(나중에...)
+            - 오버로딩, 오버라이딩(재정의)
+            - 상속, 다중상속
+            - 추상클래스, 인터페이스...
