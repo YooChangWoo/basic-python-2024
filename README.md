@@ -106,10 +106,11 @@ print( 5 == 4 )  # False
      - 사용방법 (test31_jupyter.ipynb 참조)
   - folium 기본사용
     ![folium사용법](https://raw.githubusercontent.com/YooChangWoo/basic-python-2024/main/images/python_001.png)
+ 
   ## 5일차
   - 파이썬 응용
     - 주피터 노트북 활용 - 구글 코랩(Colab)
-    
+    - folium 계속
 
 
 

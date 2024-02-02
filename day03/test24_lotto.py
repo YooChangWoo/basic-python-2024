@@ -2,7 +2,7 @@
 #   file : test23_module.py
 #   desc : 로또번호 생성
 
-# import random as rnd # 랜덤은 주로 rnd로 줄여서 많이 사용
+import random as rnd # 랜덤은 주로 rnd로 줄여서 많이 사용
 
 # numbers = list(range(1, 46))
 
