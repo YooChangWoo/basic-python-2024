@@ -12,6 +12,7 @@ class BackWorker(QThread): #PyQt에서 스레드 클래스 상속
     initSignal = pyqtSignal(int) # 시그널을 UI스레드로 전달하기 위한 변수객체
     setSignal = pyqtSignal(int)
     setLog = pyqtSignal(str)
+
     def __init__(self, parent) -> None:
         super().__init__(parent)
         self.parent = parent # BackWorker 에 사용할 멤버 변수
@@ -43,7 +44,8 @@ class qtwin_exam(QWidget):
         th.start() # BackWorker 내의 self.run() 실행
         th.initSignal.connect(self.initPgbTask) # thread 
         th.setSignal.connect(self.setPgbTask)
-        th.setLog.connect(self.setTxbLog) # TextBrowser 위젯에 출력
+        th.setLog.connect(self.setTxbLog)  #TextBrowser 위젯에 진행사항 출력
+
 
     def closeEvent(self, QCloseEvent) -> None: # X버튼 종료확인
         re = QMessageBox.question(self,'종료 확인','종료 하실?', QMessageBox.Yes|QMessageBox.No)
@@ -54,12 +56,12 @@ class qtwin_exam(QWidget):
 
 
     # Thread 에서 시그널이 넘어오면 UI 처리를 대신해주는 부분 슬롯함수
-    @pyqtSlot(int) # self.initSignal.emit() 동작해서 실행
+    @pyqtSlot(int)      #BackWorker 스레드에서 self.initSignal.emit() 동작해서 실행
     def initPgbTask(self, maxVal):
         self.pgbTask.setValue(0)
         self.pgbTask.setRange(0, maxVal - 1)
     
-    @pyqtSlot(str) # BackWorker 스레드에서 self.initSignal.emit() 동작해서 실행
+    @pyqtSlot(str)      #BackWorker 스레드에서 self.set.emit() 동작해서 실행
     def setTxbLog(self, msg):
         self.txbLog.append(msg)
 
