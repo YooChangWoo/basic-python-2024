@@ -107,14 +107,20 @@ print( 5 == 4 )  # False
   - folium 기본사용
     ![folium사용법](https://raw.githubusercontent.com/YooChangWoo/basic-python-2024/main/images/python_001.png)
  
-  ## 5일차
+## 5일차
   - 파이썬 응용
     - 주피터 노트북 활용 - 구글 코랩(Colab)
     - folium 계속
     - json 입출력
     - 응용예제 연습(10개)
         -IP주소 확인
+        -QRCODE 만들기
 
+## 6일차
+- 파이썬 응용
+    -Window App(PyQt) 만들기
+
+- 가상환경
 
 
         - 가상환경
