@@ -181,7 +181,7 @@ print( 5 == 4 )  # False
     - PyQt5와 응용예제 연습
     - 이미지 뷰어
     - 이미지 에디터
-    ![PyQt예제](https://raw.githubusercontent.com/YooChangWoo/basic-python-2024/main/images/PyQt5_사진.png)
+    
 
     ![PyQt예제](https://raw.githubusercontent.com/YooChangWoo/basic-python-2024/main/image/PyQt5사진.png)
 
