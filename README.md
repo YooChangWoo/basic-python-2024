@@ -184,6 +184,7 @@ print( 5 == 4 )  # False
     ![PyQt예제](https://raw.githubusercontent.com/YooChangWoo/basic-python-2024/main/images/PyQt5_사진.png)
 
     ![PyQt예제](https://raw.githubusercontent.com/YooChangWoo/basic-python-2024/main/image/PyQt5사진.png)
+    ![PyQt예제](https://github.com/YooChangWoo/basic-python-2024/tree/main/images/PyQt5.png)
 
 (<images/PyQt5 사진.png>)
 
