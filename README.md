@@ -183,7 +183,7 @@ print( 5 == 4 )  # False
     - 이미지 에디터
 
 
-    ![PyQt예제](https://raw.githubusercontent.com/YooChangWoo/basic-python-2024/main/image/스크린샷2024-02-06.png)
+    ![PyQt예제](https://raw.githubusercontent.com/YooChangWoo/basic-python-2024/main/image/PyQt5 사진.png.png)
 
 
 ## 8일차
