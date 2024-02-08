@@ -182,9 +182,9 @@ print( 5 == 4 )  # False
     - 이미지 뷰어
     - 이미지 에디터
     
+    ![PyQt5사진](https://github.com/YooChangWoo/basic-python-2024/assets/158007388/b5bb6d3c-6928-4f85-8b34-31a90b90a19c)
 
-    ![PyQt예제](https://raw.githubusercontent.com/YooChangWoo/basic-python-2024/main/image/PyQt5사진.png)
-    ![PyQt예제](https://github.com/YooChangWoo/basic-python-2024/tree/main/images/PyQt5.png)
+   
 
 (<images/PyQt5 사진.png>)
 
